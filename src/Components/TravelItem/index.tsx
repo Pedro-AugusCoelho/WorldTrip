@@ -1,4 +1,4 @@
-import { Box, Icon, IconProps, Image, Text, VStack } from "@chakra-ui/react";
+import { Icon, Text, Stack, Circle, GridItem  } from "@chakra-ui/react";
 import { ElementType } from "react";
 import { Link as RouterLink } from 'react-router-dom';
 
@@ -10,24 +10,35 @@ interface TravelItemProps{
 
 export const TravelItem = ({image, href, title}:TravelItemProps) => {
     return(
-        <Box
+        <GridItem
         as={RouterLink}
         to={href}
         cursor='pointer'
+        w='full'
         >
-            <VStack 
+            <Stack 
+            direction={{base:'row',md:'column'}}
             color='#FFBA08'
             transition='color ease .5s'
             _hover={{
                 color:'green.500'
             }}
+            alignItems='center'
             >
                 <Icon 
                     as={image} 
                     boxSize={100} 
+                    display={{base:'none' , md:'flex'}}
+                />
+
+                <Circle 
+                    display={{base:'flex' , md:'none'}}
+                    size='10px' 
+                    bg='#FFBA08' 
                 />
                 
                 <Text
+                    textAlign='left'
                     fontSize='xl'
                     fontWeight='semibold'
                     color='#47585B'
@@ -35,7 +46,7 @@ export const TravelItem = ({image, href, title}:TravelItemProps) => {
                     {title}
                 </Text>
             
-            </VStack>
-        </Box>
+            </Stack>
+        </GridItem>
     )
 }

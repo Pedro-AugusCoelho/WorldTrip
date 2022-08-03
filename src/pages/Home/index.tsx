@@ -1,4 +1,4 @@
-import { VStack } from "@chakra-ui/react";
+import { Box, Center, Divider, VStack } from "@chakra-ui/react";
 import { Header } from "../../Components/Header";
 import { Banner } from "./Banner";
 import { Travel } from "./Travel";
@@ -10,6 +10,9 @@ const Home = () => {
             <Header />
             <Banner />
             <Travel />
+            <Box py='1.75rem'>
+                <Divider borderColor='black' w='10vw'/>
+            </Box>
         </VStack>
     )
 }
