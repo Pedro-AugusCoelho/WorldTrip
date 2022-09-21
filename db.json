@@ -1,0 +1,52 @@
+{
+    "continent": 
+    [
+        { 
+            "id": 1, 
+            "title": "EUROPA", 
+            "subtitle": "O CONTINENTE MAIS ANTIGO" ,
+            "image":"https://images.pexels.com/photos/2901209/pexels-photo-2901209.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "text": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste"
+        },
+        
+        { 
+            "id": 2, 
+            "title": "AMÉRICA DO NORTE", 
+            "subtitle": "O CONTINENTE MAIS RICO" ,
+            "image":"https://images.pexels.com/photos/417054/pexels-photo-417054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "text": "A América do Norte é um subcontinente que compreende a porção setentrional do continente americano, São uma república constitucional federal composta por cinquenta estados e um distrito federal. A maior parte do país situa-se na região central da América do Norte, formada por 48 estados e Washington, d.C., o distrito federal da capital. Localiza-se entre os oceanos Pacífico e Atlântico, fazendo fronteira com o Canadá a norte e com o México a sul."
+        },
+
+        { 
+            "id": 3, 
+            "title": "AMÉRICA DO SUL", 
+            "subtitle": "O CONTINENTE MAIS ANTIGO" ,
+            "image":"https://images.pexels.com/photos/7835224/pexels-photo-7835224.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "text": "A América do Sul é um continente que compreende a porção meridional da América. Também é considerada um subcontinente do continente americano. A sua extensão é de 17 819 100 km², abrangendo 12% da superfície terrestre e 6% da população mundial. Une-se à América Central a norte pelo istmo do Panamá e se separa da Antártida ao sul pelo estreito de Drake. Tem uma extensão de 7 500 km desde o mar do Caribe até ao cabo Horn, ponto extremo sul do continente."
+        },
+
+        { 
+            "id": 4, 
+            "title": "ÁSIA", 
+            "subtitle": "O CONTINENTE MAIS ANTIGO" ,
+            "image":"https://wallpaper.dog/large/20488107.jpg",
+            "text": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering. O ponto extremo setentrional do continente está localizado no oceano Glacial Ártico."
+        },
+        
+        { 
+            "id": 5, 
+            "title": "ÁFRICA", 
+            "subtitle": "O CONTINENTE MAIS ANTIGO" ,
+            "image":"https://assets-cdn.kangaroo.com.br/images/africa-do-sul/por-do-sol-capetown.jpg",
+            "text": "A África é o terceiro continente mais extenso (depois da Ásia e da América) com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas (estimativa para 2005), representando cerca de um sétimo da população mundial, e 54 países independentes. Tem se transformado na ultima década em uma continente cada vez mais católico."
+        },
+
+        { 
+            "id": 6, 
+            "title": "OCEANIA", 
+            "subtitle": "O CONTINENTE MAIS ANTIGO" ,
+            "image":"https://images.pexels.com/photos/11122389/pexels-photo-11122389.jpeg?auto=compress&cs=tinysrgb&w=1500&h=750&dpr=1",
+            "text": "Oceania ou Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico (Polinésia, Melanésia e Micronésia). O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville. O termo é usado hoje em vários idiomas para designar uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes."
+        }
+    ]
+}
