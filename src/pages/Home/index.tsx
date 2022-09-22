@@ -27,7 +27,7 @@ const Home = () => {
 
     return(
         <VStack maxW='1440' w='100%' mx='auto'>
-            <Header />
+            <Header showBackPage={false} />
             <Banner />
             <Travel />
             <Box pt='1.75rem'>

@@ -18,6 +18,7 @@ export const SwiperSlideItem = ({title, subtitle, img, idContinent}:SwiperSlideI
                 backgroundImage={img} 
                 backgroundPosition="center" 
                 backgroundRepeat="no-repeat" 
+                bgSize='cover'
                 w='full'  
                 justifyContent='center' 
                 alignItems='center' 

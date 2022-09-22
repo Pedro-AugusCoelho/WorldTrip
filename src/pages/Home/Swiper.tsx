@@ -19,7 +19,7 @@ interface MainSwiperProps {
 
 export const MainSwiper = ({ allContinent }:MainSwiperProps) => {
     return(
-        <HStack w={{base:'80%' , md:'70%'}} py='1rem'>
+        <HStack w={{base:'90%' , md:'95%'}} py='1rem'>
             <Swiper
                 cssMode={true}
                 navigation={true}
@@ -27,6 +27,10 @@ export const MainSwiper = ({ allContinent }:MainSwiperProps) => {
                 mousewheel={true}
                 keyboard={true}
                 modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+                style={{
+                    "--swiper-navigation-color": "#FFBA08",
+                    "--swiper-pagination-color": "#FFBA08",
+                }}
                 className="mySwiper"
             >
                 {allContinent.map((item, key) => (
