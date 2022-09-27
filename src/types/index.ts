@@ -13,5 +13,13 @@ export const ContinentType = {
     subtitle: '',
     image: '',
     text: '',
-    infocontinent: { countcountries: '', countlanguage: '', countcity: '' }
+    infocontinent: { countcountries: '', countlanguage: '', countcity: '' },
+    citys: []
+}
+
+export type CountyType = {
+    imgcountry: string, 
+    logo: string, 
+    countryname: string, 
+    cityname: string, 
 }

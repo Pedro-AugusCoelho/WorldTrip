@@ -1,4 +1,5 @@
 import { HStack, Box, VStack, Text, Stack } from "@chakra-ui/react";
+import InfoLeftItem from "./InfoLeftItem";
 
 interface infoContinentProps {
     info: { countcountries: string; countlanguage: string; countcity: string }
@@ -27,29 +28,9 @@ const InfoContinent = ({ info, text }:infoContinentProps) => {
                 alignItems={'center'}
                 spacing={'3rem'}
             >
-                <VStack
-                    justifyContent={'center'}
-                    alignItems={'center'}
-                >
-                    <Text fontWeight={'semibold'} fontSize={'2xl'} textColor={'#FFBA08'}>{info.countcountries}</Text>
-                    <Text fontWeight={'semibold'} fontSize={'2xl'} mt={'0px !important' } textColor={'#47585B'}>Países</Text>
-                </VStack>
-
-                <VStack
-                    justifyContent={'center'}
-                    alignItems={'center'}
-                >
-                    <Text fontWeight={'semibold'} fontSize={'2xl'} textColor={'#FFBA08'}>{info.countlanguage}</Text>
-                    <Text fontWeight={'semibold'} fontSize={'2xl'} mt={'0px !important' } textColor={'#47585B'}>Línguas</Text>
-                </VStack>
-
-                <VStack
-                    justifyContent={'center'}
-                    alignItems={'center'}
-                >
-                    <Text fontWeight={'semibold'} fontSize={'2xl'} textColor={'#FFBA08'}>{info.countcity}</Text>
-                    <Text fontWeight={'semibold'} fontSize={'2xl'} mt={'0px !important' } textColor={'#47585B'}>Cidades</Text>
-                </VStack>
+                <InfoLeftItem title="Países" count={info.countcountries}  />
+                <InfoLeftItem title="Línguas" count={info.countlanguage}  />
+                <InfoLeftItem title="Cidades" count={info.countcity}  />
             </HStack>
 
         </Stack>

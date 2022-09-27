@@ -5,6 +5,7 @@ import { Header } from "../../Components/Header";
 import { api } from "../../services/configAxios";
 import { ContinentType } from "../../types";
 import BannerHighlightContinent from "./BannerHighlightContinent";
+import InfoCityTravel from "./InfoCityTravel";
 import InfoContinent from "./InfoContinent";
 
 
@@ -28,6 +29,7 @@ const Continent = () => {
             <Header showBackPage={true} />
             <BannerHighlightContinent img={continent.image} title={continent.title} />
             <InfoContinent info={continent.infocontinent} text={continent.text}/>
+            <InfoCityTravel countrys={continent.citys} />
         </VStack>
     )
 }
